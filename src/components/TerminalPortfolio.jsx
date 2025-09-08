@@ -706,7 +706,7 @@ export default function TerminalPortfolio() {
               key={i}
               className={`binary-digit ${isGreen ? 'text-green-500/20' : 'text-red-500/20'} absolute font-mono text-sm`}
               style={{
-                left: `${Math.random() * 100}%`,
+                left: `${Math.random() * 1000}%`,
                 animationDelay: `${Math.random() * 10}s`,
                 animationDuration: `${10 + Math.random() * 20}s`
               }}
