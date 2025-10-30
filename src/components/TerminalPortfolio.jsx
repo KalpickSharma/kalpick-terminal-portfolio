@@ -543,7 +543,7 @@ export default function TerminalPortfolio() {
             <div className={`text-center p-4 border ${isGreen ? 'border-green-600/30' : 'border-red-600/30'} rounded-lg bg-zinc-950/50`}>
               <h3 className={`${isGreen ? 'text-green-400' : 'text-red-400'} font-semibold mb-3`}>📄 Download Resume</h3>
               <a 
-                href="/Kalpick_.pdf" 
+                href="/Kalpick_R.pdf" 
                 target="_blank" 
                 rel="noreferrer"
                 className={`inline-flex items-center gap-2 px-6 py-3 ${isGreen ? 'bg-green-600 hover:bg-green-700 hover:shadow-green-500/25' : 'bg-red-600 hover:bg-red-700 hover:shadow-red-500/25'} text-white font-medium rounded-lg transition-colors duration-200 hover:shadow-lg`}
